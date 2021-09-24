@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/white"
+    android:layout_marginTop="20dp"
+    android:paddingVertical="15dp"
+    >
+
+    <ImageView
+        android:id="@+id/image_bico"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/work"
+
+        />
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/image_bico"
+        android:maxLines="2"
+        android:textColor="@color/black"
+        android:text="Preciso de um pedreiro para Construir uma Churrasqueira"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/text_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_title"
+        android:layout_toEndOf="@id/image_bico"
+        android:text="Preciso de um pedreiro para Construir uma Churrasqueira na area da piscina"
+        android:maxLines="3"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:id="@+id/text_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_description"
+        android:text="R$ 1500"
+        android:layout_toEndOf="@id/image_bico"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "498088392767",
+    "project_id": "quero-bicos",
+    "storage_bucket": "quero-bicos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498088392767:android:940e83888f7f2688c6e08a",
+        "android_client_info": {
+          "package_name": "com.example.querobicos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498088392767-gj0ld3j3bcajthr9qs339v4suf281lm1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.querobicos",
+            "certificate_hash": "629e85eeb37b04079d460c632e96ac355d1d9e1f"
+          }
+        },
+        {
+          "client_id": "498088392767-6qclja333dlcnjdbi48mums1phnkqimi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhVj50U68nJUCgtbu05vdr-FjW4W3WZjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498088392767-6qclja333dlcnjdbi48mums1phnkqimi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

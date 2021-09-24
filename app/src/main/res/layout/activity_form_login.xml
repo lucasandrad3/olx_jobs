@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_layout_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Form.FormLogin"
+    android:background="@drawable/shape_background_login"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+
+        />
+    <EditText
+        android:id="@+id/edit_email_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:maxLines="1"
+        android:drawableEnd="@drawable/ic_email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/shape_button_login"
+
+
+        />
+    <EditText
+        android:id="@+id/edit_password_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:drawableEnd="@drawable/ic_password"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/shape_button_login"
+
+        />
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:backgroundTint="@color/AV"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        app:cornerRadius="32dp"
+        />
+
+    <TextView
+        android:id="@+id/text_create_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crie uma conta clicando aqui!"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        />
+</LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/loadScreen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/roxo"
+            android:visibility="gone"
+            >
+            <ProgressBar
+                android:id="@+id/p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminateTint="@color/white"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aguarde..."
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+
+
+
+                />
+
+        </FrameLayout>
+
+    </FrameLayout>
+</androidx.core.widget.NestedScrollView>
